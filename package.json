@@ -1,0 +1,10 @@
+{
+  "name": "gtheme-lucasneo",
+  "version": "0.1.0",
+  "description": "A ghost theme for my personal website.",
+  "author": {
+    "name": "Lucas Neo",
+    "email": "lucasneosr@gmail.com"
+  },
+  "license": "MIT"
+}

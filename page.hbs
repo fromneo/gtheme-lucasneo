@@ -1,0 +1,12 @@
+{{#post}}
+<!-- This is inserted to display the blog list -->
+{{#has tag="blogpage"}}
+  {{#get "posts" limit="10" include="author,tags"}}
+  {{#foreach posts}}
+    <header>
+      <h1>{{title}}</h1>
+    </header>
+  {{/foreach}}
+  {{/get}}
+{{/has}}
+{{/post}}
