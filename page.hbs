@@ -1,10 +1,13 @@
+{{!< default}}
+
 {{#post}}
+<h1>{{title}}</h1>
 <!-- This is inserted to display the blog list -->
 {{#has tag="blogpage"}}
   {{#get "posts" limit="10" include="author,tags"}}
   {{#foreach posts}}
     <header>
-      <h1>{{title}}</h1>
+      <a href={{url}}>{{title}}</a>
     </header>
   {{/foreach}}
   {{/get}}
