@@ -6,5 +6,16 @@
     "name": "Lucas Neo",
     "email": "lucasneosr@gmail.com"
   },
-  "license": "MIT"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fromneo/gtheme-lucasneo.git"
+  },
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0",
+    "spectre.css": "^0.5.1",
+    "uikit": "^3.0.0-beta.40"
+  }
 }
